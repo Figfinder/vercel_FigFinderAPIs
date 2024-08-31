@@ -46,8 +46,8 @@ if 'token' not in st.session_state:
 if 'suggested_dates' not in st.session_state:
     st.session_state.suggested_dates = []
 
-client_id = "647775398332-gq8t0dkgs4u4pe18anbftm65dkojj9hl.apps.googleusercontent.com"
-client_secret = "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"
+client_id = "550986432390-jlq2h8pkjolu47p0h5nl80bm6hllgtot.apps.googleusercontent.com"
+client_secret = "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"
 redirect_uri = "https://figfinder.streamlit.app/callback/"  # For local testing
 oauth2 = OAuth2Component(client_id, client_secret, redirect_uri,
                          authorize_endpoint="https://accounts.google.com/o/oauth2/v2/auth",
